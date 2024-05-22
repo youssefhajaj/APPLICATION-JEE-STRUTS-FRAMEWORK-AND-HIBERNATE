@@ -38,17 +38,24 @@ Before running the application, ensure you have the following installed:
 
 ## First you need to start the xampp server and create this data base
 
-<img src="/ScreenShots/xampp.png" width="400">
+<img src="/ScreenShots/db_fields.png" width="500">
 
 ## Make sure the server mysql is running on the port 3306
 
-<img src="/ScreenShots/db_fields.png" width="400">
+<img src="/ScreenShots/xampp.png" width="500">
 
+## Now open your IDE and make sure to have these libraries
 
+<img src="/ScreenShots/libraries.png" width="500">
 
 ## Setup
 
 1. Clone the repository:
 
+  ```bash
+  git clone https://github.com/youssefhajaj/simple-application-using-JEE-STRUTS-FRAMEWORK-HIBERNATE.git
+
+2. go inside the folder:
+
 ```bash
-git clone https://github.com/youssefhajaj/simple-application-using-JEE-STRUTS-FRAMEWORK-HIBERNATE.git
+cd simple-application-using-JEE-STRUTS-FRAMEWORK-HIBERNATE

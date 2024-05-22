@@ -47,15 +47,42 @@ Before running the application, ensure you have the following installed:
 ## Now open your IDE and make sure to have these libraries
 
 <img src="/ScreenShots/libraries.png" width="500">
+<img src="/ScreenShots/libraries 2.png" width="500">
 
 ## Setup
 
 1. Clone the repository:
 
-  ```bash
-  git clone https://github.com/youssefhajaj/simple-application-using-JEE-STRUTS-FRAMEWORK-HIBERNATE.git
+    ```bash
+    git clone https://github.com/youssefhajaj/APPLICATION-JEE-STRUTS-FRAMEWORK-AND-HIBERNATE.git
+    ```
 
-2. go inside the folder:
+2. Go inside the folder:
 
-```bash
-cd simple-application-using-JEE-STRUTS-FRAMEWORK-HIBERNATE
+    ```bash
+    cd APPLICATION-JEE-STRUTS-FRAMEWORK-AND-HIBERNATE/project
+    ```
+
+3. Install the necessary dependencies using Maven:
+
+    ```bash
+    mvn clean install
+    ```
+
+4. Deploy the application to the GlassFish server:
+
+    - Open GlassFish Server administration console.
+    - Deploy the `project.war` file generated in the `target` directory.
+
+5. Start the GlassFish server:
+
+    - Ensure that the server is running and accessible.
+
+6. Access the application in your browser:
+
+    - Open your web browser and navigate to `http://localhost:8080/project`.
+
+## Note
+
+- Ensure your database credentials in the `hibernate.cfg.xml` file match your MySQL setup.
+- Make sure all necessary libraries are included in your project's build path as shown in the screenshots.

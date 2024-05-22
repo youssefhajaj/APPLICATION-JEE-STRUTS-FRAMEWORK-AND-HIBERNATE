@@ -17,4 +17,4 @@ Before running the application, ensure you have the following installed:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/simple-application-using-JEE-STRUTS-FRAMEWORK-HIBERNATE.git
+git clone https://github.com/youssefhajaj/simple-application-using-JEE-STRUTS-FRAMEWORK-HIBERNATE.git

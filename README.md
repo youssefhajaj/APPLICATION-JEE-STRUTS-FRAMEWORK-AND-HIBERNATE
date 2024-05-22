@@ -8,7 +8,7 @@ Before running the application, ensure you have the following installed:
 
 - Java Development Kit (JDK)
 - Apache Maven
-- Apache Tomcat Server
+- Apache GlassFish Server
 - MySQL Server (or any other supported database)
 - Git
 

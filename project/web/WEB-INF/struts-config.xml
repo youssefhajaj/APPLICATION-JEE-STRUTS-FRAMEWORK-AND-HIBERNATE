@@ -7,7 +7,14 @@
 
 <struts-config>
     <form-beans>
+        <form-bean name="form" type="model.form">
+            <form-property name="name" type="java.lang.String"/>
+            <form-property name="age" type="java.lang.String"/>
+            <form-property name="ville" type="java.lang.String"/>
+            <form-property name="dateNaissance" type="java.lang.String"/>
+        </form-bean>
         <form-bean name="form" type="model.form"/>
+
     
     </form-beans>
     
@@ -16,10 +23,11 @@
     </global-exceptions>
 
     <global-forwards>
-
+        <forward name="resultat" path="/resultat.jsp" />
     </global-forwards>
 
     <action-mappings>
+        <action input="/add_new_personne_form_jsp.jsp" name="form" path="/add_new_personne" scope="session" type="controller.add_new_personne"/>
 
     </action-mappings>
     

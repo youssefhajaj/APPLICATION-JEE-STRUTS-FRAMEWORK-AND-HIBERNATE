@@ -29,6 +29,10 @@ Before running the application, ensure you have the following installed:
 
 ## server
 
+  - GlassFish Server 4.1.1
+
+## web server 
+
   - xampp
 <img src="https://c.clc2l.com/c/thumbnail280/t/x/a/xampp-2MM13M.png" width="200">
 

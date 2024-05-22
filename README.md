@@ -36,11 +36,19 @@ Before running the application, ensure you have the following installed:
   - xampp
 <img src="https://c.clc2l.com/c/thumbnail280/t/x/a/xampp-2MM13M.png" width="200">
 
+## First you need to start the xampp server and create this data base
+
+<img src="/ScreenShots/xampp.png" width="400">
+
+## Make sure the server mysql is running on the port 3306
+
+<img src="/ScreenShots/db_fields.png" width="400">
+
+
+
 ## Setup
 
 1. Clone the repository:
 
 ```bash
 git clone https://github.com/youssefhajaj/simple-application-using-JEE-STRUTS-FRAMEWORK-HIBERNATE.git
-
-

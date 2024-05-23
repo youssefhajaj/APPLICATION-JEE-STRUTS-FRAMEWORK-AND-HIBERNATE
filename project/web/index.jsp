@@ -15,7 +15,10 @@
         <div class="row">
             <div class="col-md-12 text-center">
                 <html:link href="add_new_personne_form_jsp.jsp">
-                    <button class="btn btn-primary">Add New Personne</button>
+                    <button class="btn btn-outline-primary">Add New Personne</button>
+                </html:link>
+                <html:link href="ListPersonne">
+                    <button class="btn btn-outline-primary">View All Personnes</button>
                 </html:link>
             </div>
         </div>

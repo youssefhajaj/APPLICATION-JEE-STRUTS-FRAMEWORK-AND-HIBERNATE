@@ -17,9 +17,25 @@
         </init-param>
         <load-on-startup>2</load-on-startup>
     </servlet>
+    <servlet>
+        <servlet-name>ListPersonne</servlet-name>
+        <servlet-class>controller.ListPersonne</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>deletePersonne</servlet-name>
+        <servlet-class>controller.deletePersonne</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>action</servlet-name>
         <url-pattern>*.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ListPersonne</servlet-name>
+        <url-pattern>/ListPersonne</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>deletePersonne</servlet-name>
+        <url-pattern>/deletePersonne</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
